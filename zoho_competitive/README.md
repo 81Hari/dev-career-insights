@@ -20,4 +20,39 @@ Eg.)<br>
 <li> Now creating two pointers in sorted array, using that pointers traversing the array from the start and from the end,picking elements alternatively from both ends and overwriting the original array.</li>
 
 </ul>
+
 <hr>
+
+<h1>Find the Palindrome</h1>
+
+Take a 2 or 3 digit input number, reverse it and add it to the original number until the obtained number is a palindrome or 5 iterations are completed.<br>
+
+<b>Input :</b><br>
+32<br>
+
+<b>Output :</b><br>
+55<br>
+
+23 + 32 = 55 which is a palindrome.<br>
+
+<b>Input :</b><br>
+39<br>
+
+<b>Output :</b>
+363
+
+<hr>
+
+<h1>Sort numbers based on digits starting from most significant numbers</h1>
+
+<pre>
+Input: 100 1 11 21 2 3
+Output: 1 100 11 2 21 3
+</pre>
+
+<h1>Solution</h1>
+
+<ul>
+<li>Convert Integer to String.</li>
+<li>And sort the strings.</li>
+</ul>
